@@ -1,0 +1,388 @@
+{
+  "hospitais": [
+    {
+      "id": 1,
+      "cnpj": "34.028.316/0001-79",
+      "nomefantasia": "Hospital Central Bons Ventos"
+    },
+    {
+      "id": 2,
+      "cnpj": "07.526.847/0001-48",
+      "nomefantasia": "Hospital Prisma"
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "matricula": "MED001",
+      "nome": "Dr. Carlos Mendes",
+      "email": "carlos.mendes@hospitalcentral.com",
+      "especialidade": "Cardiologia",
+      "hospital": "Hospital Central Bons Ventos"
+    },
+    {
+      "id": 2,
+      "matricula": "MED002",
+      "nome": "Dra. Fernanda Silva",
+      "email": "fernanda.silva@hospitalcentral.com",
+      "especialidade": "Neurologia",
+      "hospital": "Hospital Central Bons Ventos"
+    },
+    {
+      "id": 3,
+      "matricula": "MED003",
+      "nome": "Dr. Roberto Santos",
+      "email": "roberto.santos@santamaria.com",
+      "especialidade": "Ortopedia",
+      "hospital": "Hospital Prisma"
+    },
+    {
+      "id": 4,
+      "matricula": "MED004",
+      "nome": "Dra. Ana Costa",
+      "email": "ana.costa@santamaria.com",
+      "especialidade": "Pediatria",
+      "hospital": "Hospital Prisma"
+    },
+    {
+      "id": 5,
+      "matricula": "MED005",
+      "nome": "Dr. Marcus Oliveira",
+      "email": "marcus.oliveira@hospitalcentral.com",
+      "especialidade": "Cirurgia Geral",
+      "hospital": "Hospital Central Bons Ventos"
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "cpf": "123.456.789-00",
+      "nome": "João da Silva",
+      "tiposanguineo": "O+",
+      "idade": 45,
+      "sexo": "M",
+      "descricaosintomas": "Dor no peito, falta de ar",
+      "historicocirurgias": "Apendicectomia em 2015",
+      "historicodocencas": "Hipertensão, Diabetes tipo 2"
+    },
+    {
+      "id": 2,
+      "cpf": "234.567.890-11",
+      "nome": "Maria Santos",
+      "tiposanguineo": "A-",
+      "idade": 32,
+      "sexo": "F",
+      "descricaosintomas": "Dor de cabeça frequente, tonturas",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Enxaqueca crônica"
+    },
+    {
+      "id": 3,
+      "cpf": "345.678.901-22",
+      "nome": "Carlos Pereira",
+      "tiposanguineo": "B+",
+      "idade": 58,
+      "sexo": "M",
+      "descricaosintomas": "Dor nas articulações, inchaço nos joelhos",
+      "historicocirurgias": "Meniscectomia em 2018",
+      "historicodocencas": "Artrite, Osteoporose"
+    },
+    {
+      "id": 4,
+      "cpf": "456.789.012-33",
+      "nome": "Juliana Costa",
+      "tiposanguineo": "O-",
+      "idade": 28,
+      "sexo": "F",
+      "descricaosintomas": "Febre, tosse persistente",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Asma"
+    },
+    {
+      "id": 5,
+      "cpf": "567.890.123-44",
+      "nome": "Roberto Alves",
+      "tiposanguineo": "AB+",
+      "idade": 55,
+      "sexo": "M",
+      "descricaosintomas": "Fadiga, perda de apetite",
+      "historicocirurgias": "Cirurgia de próstata em 2020",
+      "historicodocencas": "Hipercolesterolemia, Prostatite"
+    },
+    {
+      "id": 6,
+      "cpf": "678.901.234-55",
+      "nome": "Beatriz Mendes",
+      "tiposanguineo": "B-",
+      "idade": 41,
+      "sexo": "F",
+      "descricaosintomas": "Tremores, insônia",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Síndrome do pânico"
+    },
+    {
+      "id": 7,
+      "cpf": "789.012.345-66",
+      "nome": "Fernando Oliveira",
+      "tiposanguineo": "O+",
+      "idade": 52,
+      "sexo": "M",
+      "descricaosintomas": "Dificuldade para respirar, sibilância",
+      "historicocirurgias": "Amigdalectomia em 2019",
+      "historicodocencas": "DPOC, Bronquite crônica"
+    },
+    {
+      "id": 8,
+      "cpf": "890.123.456-77",
+      "nome": "Lucia Ribeiro",
+      "tiposanguineo": "A+",
+      "idade": 67,
+      "sexo": "F",
+      "descricaosintomas": "Visão embaçada, formigamento nas mãos",
+      "historicocirurgias": "Cirurgia de catarata em 2017",
+      "historicodocencas": "Diabetes tipo 2, Neuropatia diabética"
+    },
+    {
+      "id": 9,
+      "cpf": "901.234.567-88",
+      "nome": "Gustavo Lima",
+      "tiposanguineo": "AB-",
+      "idade": 36,
+      "sexo": "M",
+      "descricaosintomas": "Dor abdominal, náusea",
+      "historicocirurgias": "Apendicectomia em 2016",
+      "historicodocencas": "Gastrite, Síndrome do intestino irritável"
+    },
+    {
+      "id": 10,
+      "cpf": "012.345.678-99",
+      "nome": "Patricia Gomes",
+      "tiposanguineo": "O-",
+      "idade": 44,
+      "sexo": "F",
+      "descricaosintomas": "Inchaço nos pés, cansaço",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Insuficiência cardíaca"
+    },
+    {
+      "id": 11,
+      "cpf": "111.222.333-00",
+      "nome": "Diego Marques",
+      "tiposanguineo": "B+",
+      "idade": 39,
+      "sexo": "M",
+      "descricaosintomas": "Dor nas costas, rigidez matinal",
+      "historicocirurgias": "Hérnia discal em 2021",
+      "historicodocencas": "Espondilite anquilosante"
+    },
+    {
+      "id": 12,
+      "cpf": "222.333.444-11",
+      "nome": "Camila Ferreira",
+      "tiposanguineo": "A-",
+      "idade": 31,
+      "sexo": "F",
+      "descricaosintomas": "Acne severa, oleosidade excessiva",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Sem histórico"
+    },
+    {
+      "id": 13,
+      "cpf": "333.444.555-22",
+      "nome": "Alexandre Rocha",
+      "tiposanguineo": "O+",
+      "idade": 50,
+      "sexo": "M",
+      "descricaosintomas": "Perda auditiva, zumbido",
+      "historicocirurgias": "Cirurgia de timpanoplastia em 2020",
+      "historicodocencas": "Perda auditiva neurossensorial"
+    },
+    {
+      "id": 14,
+      "cpf": "444.555.666-33",
+      "nome": "Vanessa Teixeira",
+      "tiposanguineo": "AB+",
+      "idade": 38,
+      "sexo": "F",
+      "descricaosintomas": "Ganho de peso inesperado, fadiga",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Hipotireoidismo"
+    },
+    {
+      "id": 15,
+      "cpf": "555.666.777-44",
+      "nome": "Miguel Santos",
+      "tiposanguineo": "B-",
+      "idade": 43,
+      "sexo": "M",
+      "descricaosintomas": "Tremores no repouso, lentidão",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Parkinson inicial"
+    },
+    {
+      "id": 16,
+      "cpf": "666.777.888-55",
+      "nome": "Isabela Rocha",
+      "tiposanguineo": "O+",
+      "idade": 26,
+      "sexo": "F",
+      "descricaosintomas": "Dor menstrual severa",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Endometriose"
+    },
+    {
+      "id": 17,
+      "cpf": "777.888.999-66",
+      "nome": "Paulo Cardoso",
+      "tiposanguineo": "A+",
+      "idade": 61,
+      "sexo": "M",
+      "descricaosintomas": "Confusão mental, desorientação",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Alzheimer inicial"
+    },
+    {
+      "id": 18,
+      "cpf": "888.999.000-77",
+      "nome": "Elena Martins",
+      "tiposanguineo": "AB-",
+      "idade": 34,
+      "sexo": "F",
+      "descricaosintomas": "Ressecamento ocular, lacrimejamento reflexo",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Síndrome do olho seco"
+    },
+    {
+      "id": 19,
+      "cpf": "999.000.111-88",
+      "nome": "Thiago Campos",
+      "tiposanguineo": "O-",
+      "idade": 49,
+      "sexo": "M",
+      "descricaosintomas": "Hemorragia gengival, dor ao mastigar",
+      "historicocirurgias": "Extração dentária em 2018",
+      "historicodocencas": "Periodontite"
+    },
+    {
+      "id": 20,
+      "cpf": "101.202.303-99",
+      "nome": "Simone Souza",
+      "tiposanguineo": "B+",
+      "idade": 37,
+      "sexo": "F",
+      "descricaosintomas": "Coceira intensa, erupção na pele",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Dermatite atópica"
+    },
+    {
+      "id": 21,
+      "cpf": "202.303.404-00",
+      "nome": "Leandro Pacheco",
+      "tiposanguineo": "A-",
+      "idade": 56,
+      "sexo": "M",
+      "descricaosintomas": "Dor ao urinar, frequência aumentada",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Infecção urinária recorrente"
+    },
+    {
+      "id": 22,
+      "cpf": "303.404.505-11",
+      "nome": "Rafaela Nunes",
+      "tiposanguineo": "O+",
+      "idade": 29,
+      "sexo": "F",
+      "descricaosintomas": "Palpitações, ansiedade",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Arritmia cardíaca"
+    },
+    {
+      "id": 23,
+      "cpf": "404.505.606-22",
+      "nome": "Victor Martino",
+      "tiposanguineo": "AB+",
+      "idade": 42,
+      "sexo": "M",
+      "descricaosintomas": "Dor nas pernas, inchaço",
+      "historicocirurgias": "Varizes removidas em 2019",
+      "historicodocencas": "Insuficiência venosa"
+    },
+    {
+      "id": 24,
+      "cpf": "505.606.707-33",
+      "nome": "Denise Ribeiro",
+      "tiposanguineo": "B-",
+      "idade": 48,
+      "sexo": "F",
+      "descricaosintomas": "Queda de cabelo excessiva",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Alopecia androgenética"
+    },
+    {
+      "id": 25,
+      "cpf": "606.707.808-44",
+      "nome": "Rodrigo Andrade",
+      "tiposanguineo": "O+",
+      "idade": 33,
+      "sexo": "M",
+      "descricaosintomas": "Afonia, dor na garganta",
+      "historicocirurgias": "Amigdalectomia em 2015",
+      "historicodocencas": "Laringite crônica"
+    },
+    {
+      "id": 26,
+      "cpf": "707.808.909-55",
+      "nome": "Samantha Vidal",
+      "tiposanguineo": "A+",
+      "idade": 35,
+      "sexo": "F",
+      "descricaosintomas": "Sangramento nasal frequente",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Epistaxe recorrente"
+    },
+    {
+      "id": 27,
+      "cpf": "808.909.010-66",
+      "nome": "Ernesto Silva",
+      "tiposanguineo": "AB-",
+      "idade": 64,
+      "sexo": "M",
+      "descricaosintomas": "Dificuldade de digestão, ácidez",
+      "historicocirurgias": "Cirurgia de esôfago de Barrett em 2018",
+      "historicodocencas": "Refluxo gastroesofágico"
+    },
+    {
+      "id": 28,
+      "cpf": "909.010.111-77",
+      "nome": "Luciana Costa",
+      "tiposanguineo": "O-",
+      "idade": 40,
+      "sexo": "F",
+      "descricaosintomas": "Fraqueza muscular, câimbras",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Miosite"
+    },
+    {
+      "id": 29,
+      "cpf": "010.111.212-88",
+      "nome": "Guilherme Flores",
+      "tiposanguineo": "B+",
+      "idade": 27,
+      "sexo": "M",
+      "descricaosintomas": "Impossibilidade de dormir, agitação",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Insônia crônica"
+    },
+    {
+      "id": 30,
+      "cpf": "111.212.313-99",
+      "nome": "Adriana Monteiro",
+      "tiposanguineo": "A-",
+      "idade": 53,
+      "sexo": "F",
+      "descricaosintomas": "Dormência nos pés, formigamento",
+      "historicocirurgias": "Sem histórico",
+      "historicodocencas": "Neuropatia periférica"
+    }
+  ]
+}
